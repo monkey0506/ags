@@ -1,0 +1,54 @@
+import com.sun.org.apache.bcel.internal.util.ClassPath
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.model.library'
+
+model {
+    android {
+        compileSdkVersion = 23
+        buildToolsVersion = "23.0.2"
+
+        defaultConfig {
+            minSdkVersion.apiLevel = 15
+            targetSdkVersion.apiLevel = 23
+            versionCode 3406
+            versionName "3.4.0.6"
+        }
+        buildTypes {
+            release {
+                minifyEnabled = false
+            }
+        }
+    }
+
+    android.ndk {
+        moduleName = "native"
+    }
+
+    tasks {
+        // call regular ndk-build(.cmd) script from app directory
+        ndkBuild(Exec) {
+            Properties properties = new Properties()
+            new File(project.rootDir, "local.properties").withInputStream {
+                instr -> properties.load(instr)
+            }
+            def ndkDir = properties.getProperty("ndk.dir")
+            def ndkExt = (Os.isFamily(Os.FAMILY_WINDOWS) ? ".cmd" : "")
+            commandLine ndkDir + "/ndk-build" + ndkExt, '-C', file(project.rootDir).absolutePath
+        }
+
+        // build a JAR so the native libraries can be built into the APK
+        nativeLibsToJar(Zip) {
+            dependsOn ndkBuild
+            destinationDir file("$rootProject.projectDir/build/native-libs")
+            baseName "native-libs"
+            extension "jar"
+            from fileTree(dir: "$rootProject.projectDir/build/local", include: "*/*.so")
+            into "lib/"
+        }
+
+        withType(JavaCompile) {
+            compileTask -> compileTask.dependsOn nativeLibsToJar
+        }
+    }
+}
