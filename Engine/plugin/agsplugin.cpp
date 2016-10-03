@@ -1028,6 +1028,11 @@ void pl_read_plugins_from_disk (Stream *in) {
 
             continue;
           }
+          else
+          {
+              AGS::Common::Out::FPrint("Built in plugin %s found.", apl->filename);
+          }
+            
         }
 
         if (datasize > 0) {
