@@ -10,14 +10,14 @@
 		110F58A71885B8450061BB0A /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A21885B8450061BB0A /* ac2game.dat */; };
 		110F58A81885B8450061BB0A /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A31885B8450061BB0A /* audio.vox */; };
 		110F58A91885B8450061BB0A /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A41885B8450061BB0A /* speech.vox */; };
-		118F74CE18B52A5200236026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118F74CD18B52A5200236026 /* Images.xcassets */; };
 		119529A318B3EDD300923A50 /* agswadjetutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1195299A18B3EDD300923A50 /* agswadjetutil.cpp */; };
+		148DE7401E95499B008BEE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148DE73F1E95499B008BEE01 /* Images.xcassets */; };
+		148DE7411E95499B008BEE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148DE73F1E95499B008BEE01 /* Images.xcassets */; };
 		28FD15000DC6FC520079059D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGL.framework */; };
 		52264CBF1D16AB7A00A39A14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52264CBE1D16AB7A00A39A14 /* Cocoa.framework */; };
 		52264CC11D16AC5000A39A14 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 52264CC01D16AC5000A39A14 /* acsetup.cfg */; };
 		525611861D718C50001C9D62 /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52C5C0841D278649001E3B10 /* steam_appid.txt */; };
 		525611881D718C50001C9D62 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 52264CC01D16AC5000A39A14 /* acsetup.cfg */; };
-		525611891D718C50001C9D62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118F74CD18B52A5200236026 /* Images.xcassets */; };
 		5256118A1D718C50001C9D62 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A31885B8450061BB0A /* audio.vox */; };
 		5256118B1D718C50001C9D62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526F1A171D3B0AC300EF4E1F /* MainMenu.xib */; };
 		5256118C1D718C50001C9D62 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A41885B8450061BB0A /* speech.vox */; };
@@ -103,20 +103,20 @@
 		110F58A21885B8450061BB0A /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/ac2game.dat; sourceTree = "<group>"; };
 		110F58A31885B8450061BB0A /* audio.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio.vox; path = game_files/audio.vox; sourceTree = "<group>"; };
 		110F58A41885B8450061BB0A /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game_files/speech.vox; sourceTree = "<group>"; };
-		118F74CD18B52A5200236026 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Shivah/Images.xcassets; sourceTree = "<group>"; };
 		1195299A18B3EDD300923A50 /* agswadjetutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = agswadjetutil.cpp; sourceTree = "<group>"; };
 		1195299B18B3EDD300923A50 /* agswadjetutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agswadjetutil.h; sourceTree = "<group>"; };
-		14B98FA31E48F27E003B0A8C /* Shivah.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Shivah.entitlements; path = Shivah/Shivah.entitlements; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Shivah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shivah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148DE73F1E95499B008BEE01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GeminiRue/Images.xcassets; sourceTree = "<group>"; };
+		148DE7421E9549B3008BEE01 /* GeminiRue.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = GeminiRue.entitlements; path = GeminiRue/GeminiRue.entitlements; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GeminiRue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeminiRue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FD14FF0DC6FC520079059D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		32CA4F630368D1EE00C91783 /* Shivah_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shivah_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GeminiRue_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeminiRue_Prefix.pch; sourceTree = "<group>"; };
 		52264CBE1D16AB7A00A39A14 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		52264CC01D16AC5000A39A14 /* acsetup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = acsetup.cfg; path = game_files/acsetup.cfg; sourceTree = "<group>"; };
-		525611A81D718C50001C9D62 /* Shivah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shivah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525611A81D718C50001C9D62 /* GeminiRue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeminiRue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525611AA1D718C8F001C9D62 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../OSX/xcode/wadjetcommon/plugin_registration.cpp; sourceTree = "<group>"; };
 		525611AB1D718C8F001C9D62 /* plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = plugin_registration.hpp; path = ../OSX/xcode/wadjetcommon/plugin_registration.hpp; sourceTree = "<group>"; };
 		525611AD1D718DC1001C9D62 /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/steam/ac2game.dat; sourceTree = "<group>"; };
-		525611B01D718EAE001C9D62 /* Shivah_Steam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Shivah_Steam-Info.plist"; sourceTree = "<group>"; };
+		525611B01D718EAE001C9D62 /* GeminiRue_Steam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GeminiRue_Steam-Info.plist"; sourceTree = "<group>"; };
 		526F1A171D3B0AC300EF4E1F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		52A7D3501D1E688100D88BEE /* AGSKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A7D3521D1E689C00D88BEE /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
@@ -136,7 +136,7 @@
 		52C5C0841D278649001E3B10 /* steam_appid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = steam_appid.txt; path = game_files/steam/steam_appid.txt; sourceTree = "<group>"; };
 		52DA542F1D194C4C0056FB17 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		60F49A49155131E500A07887 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		8D1107310486CEB800E47090 /* Shivah-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Shivah-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GeminiRue-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GeminiRue-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DB994B26180ECB9B00835511 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DB994B28180ECBB200835511 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		DB994B2A180ECBBE00835511 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -203,8 +203,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Shivah.app */,
-				525611A81D718C50001C9D62 /* Shivah.app */,
+				1D6058910D05DD3D006BFB54 /* GeminiRue.app */,
+				525611A81D718C50001C9D62 /* GeminiRue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				14B98FA31E48F27E003B0A8C /* Shivah.entitlements */,
+				148DE7421E9549B3008BEE01 /* GeminiRue.entitlements */,
 				60898C2B160779D9009E152F /* Plugins */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -228,7 +228,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* Shivah_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* GeminiRue_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -236,13 +236,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				148DE73F1E95499B008BEE01 /* Images.xcassets */,
 				525611AF1D718DCC001C9D62 /* Steam */,
-				118F74CD18B52A5200236026 /* Images.xcassets */,
 				110F58A21885B8450061BB0A /* ac2game.dat */,
 				52264CC01D16AC5000A39A14 /* acsetup.cfg */,
 				110F58A31885B8450061BB0A /* audio.vox */,
 				110F58A41885B8450061BB0A /* speech.vox */,
-				8D1107310486CEB800E47090 /* Shivah-Info.plist */,
+				8D1107310486CEB800E47090 /* GeminiRue-Info.plist */,
 				526F1A171D3B0AC300EF4E1F /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -262,7 +262,7 @@
 		525611AF1D718DCC001C9D62 /* Steam */ = {
 			isa = PBXGroup;
 			children = (
-				525611B01D718EAE001C9D62 /* Shivah_Steam-Info.plist */,
+				525611B01D718EAE001C9D62 /* GeminiRue_Steam-Info.plist */,
 				525611AD1D718DC1001C9D62 /* ac2game.dat */,
 				52C5C0841D278649001E3B10 /* steam_appid.txt */,
 			);
@@ -328,9 +328,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Shivah */ = {
+		1D6058900D05DD3D006BFB54 /* GeminiRue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Shivah" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GeminiRue" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -342,14 +342,14 @@
 			);
 			dependencies = (
 			);
-			name = Shivah;
+			name = GeminiRue;
 			productName = Legacy;
-			productReference = 1D6058910D05DD3D006BFB54 /* Shivah.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* GeminiRue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		525611841D718C50001C9D62 /* Shivah_Steam */ = {
+		525611841D718C50001C9D62 /* GeminiRue_Steam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 525611A51D718C50001C9D62 /* Build configuration list for PBXNativeTarget "Shivah_Steam" */;
+			buildConfigurationList = 525611A51D718C50001C9D62 /* Build configuration list for PBXNativeTarget "GeminiRue_Steam" */;
 			buildPhases = (
 				525611851D718C50001C9D62 /* Resources */,
 				5256118D1D718C50001C9D62 /* Sources */,
@@ -361,9 +361,9 @@
 			);
 			dependencies = (
 			);
-			name = Shivah_Steam;
+			name = GeminiRue_Steam;
 			productName = Legacy;
-			productReference = 525611A81D718C50001C9D62 /* Shivah.app */;
+			productReference = 525611A81D718C50001C9D62 /* GeminiRue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +384,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shivah" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GeminiRue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -400,8 +400,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Shivah */,
-				525611841D718C50001C9D62 /* Shivah_Steam */,
+				1D6058900D05DD3D006BFB54 /* GeminiRue */,
+				525611841D718C50001C9D62 /* GeminiRue_Steam */,
 			);
 		};
 /* End PBXProject section */
@@ -413,8 +413,8 @@
 			files = (
 				52C5C0851D278649001E3B10 /* steam_appid.txt in Resources */,
 				110F58A71885B8450061BB0A /* ac2game.dat in Resources */,
+				148DE7401E95499B008BEE01 /* Images.xcassets in Resources */,
 				52264CC11D16AC5000A39A14 /* acsetup.cfg in Resources */,
-				118F74CE18B52A5200236026 /* Images.xcassets in Resources */,
 				110F58A81885B8450061BB0A /* audio.vox in Resources */,
 				526F1A181D3B0AC300EF4E1F /* MainMenu.xib in Resources */,
 				110F58A91885B8450061BB0A /* speech.vox in Resources */,
@@ -427,8 +427,8 @@
 			files = (
 				525611861D718C50001C9D62 /* steam_appid.txt in Resources */,
 				525611881D718C50001C9D62 /* acsetup.cfg in Resources */,
+				148DE7411E95499B008BEE01 /* Images.xcassets in Resources */,
 				525611AE1D718DC1001C9D62 /* ac2game.dat in Resources */,
-				525611891D718C50001C9D62 /* Images.xcassets in Resources */,
 				5256118A1D718C50001C9D62 /* audio.vox in Resources */,
 				5256118B1D718C50001C9D62 /* MainMenu.xib in Resources */,
 				5256118C1D718C50001C9D62 /* speech.vox in Resources */,
@@ -468,16 +468,16 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Shivah/Shivah.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GeminiRue/GeminiRue.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Shivah_Prefix.pch;
-				INFOPLIST_FILE = "Shivah-Info.plist";
+				GCC_PREFIX_HEADER = GeminiRue_Prefix.pch;
+				INFOPLIST_FILE = "GeminiRue-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Shivah;
-				PRODUCT_NAME = Shivah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.GeminiRue;
+				PRODUCT_NAME = GeminiRue;
 			};
 			name = Debug;
 		};
@@ -486,15 +486,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Shivah/Shivah.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GeminiRue/GeminiRue.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Shivah_Prefix.pch;
-				INFOPLIST_FILE = "Shivah-Info.plist";
+				GCC_PREFIX_HEADER = GeminiRue_Prefix.pch;
+				INFOPLIST_FILE = "GeminiRue-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Shivah;
-				PRODUCT_NAME = Shivah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.GeminiRue;
+				PRODUCT_NAME = GeminiRue;
 			};
 			name = Release;
 		};
@@ -506,12 +506,12 @@
 				COMBINE_HIDPI_IMAGES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Shivah_Prefix.pch;
-				INFOPLIST_FILE = "Shivah_Steam-Info.plist";
+				GCC_PREFIX_HEADER = GeminiRue_Prefix.pch;
+				INFOPLIST_FILE = "GeminiRue_Steam-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(steamworks_sdk)/redistributable_bin/osx32";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Shivah;
-				PRODUCT_NAME = Shivah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.GeminiRue;
+				PRODUCT_NAME = GeminiRue;
 				USER_HEADER_SEARCH_PATHS = "$(steamworks_sdk)/public";
 			};
 			name = Debug;
@@ -523,12 +523,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Shivah_Prefix.pch;
-				INFOPLIST_FILE = "Shivah_Steam-Info.plist";
+				GCC_PREFIX_HEADER = GeminiRue_Prefix.pch;
+				INFOPLIST_FILE = "GeminiRue_Steam-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(steamworks_sdk)/redistributable_bin/osx32";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Shivah;
-				PRODUCT_NAME = Shivah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.GeminiRue;
+				PRODUCT_NAME = GeminiRue;
 				USER_HEADER_SEARCH_PATHS = "$(steamworks_sdk)/public";
 			};
 			name = Release;
@@ -619,7 +619,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Shivah" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GeminiRue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -628,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		525611A51D718C50001C9D62 /* Build configuration list for PBXNativeTarget "Shivah_Steam" */ = {
+		525611A51D718C50001C9D62 /* Build configuration list for PBXNativeTarget "GeminiRue_Steam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				525611A61D718C50001C9D62 /* Debug */,
@@ -637,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shivah" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GeminiRue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

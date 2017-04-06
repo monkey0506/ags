@@ -20,6 +20,9 @@
       location = "group:shivah/Shivah.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:geminirue/GeminiRue.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:unbound/Unbound.xcodeproj">
    </FileRef>
 </Workspace>
