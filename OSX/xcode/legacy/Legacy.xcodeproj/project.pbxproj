@@ -10,12 +10,12 @@
 		110F58A81885B8450061BB0A /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A31885B8450061BB0A /* audio.vox */; };
 		110F58A91885B8450061BB0A /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A41885B8450061BB0A /* speech.vox */; };
 		117B8228194F2DA600542747 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117B8227194F2DA600542747 /* Images.xcassets */; };
-		119FFB6A19D8713C00031D4B /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 119FFB6919D8713C00031D4B /* ac2game.dat */; };
 		119FFB6C19D87B9C00031D4B /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 119FFB6B19D87B9C00031D4B /* ac2game.dat */; };
 		119FFB7219D8829E00031D4B /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 119FFB7119D8829E00031D4B /* steam_appid.txt */; };
 		11C3C32C19D63B9700CE4E49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117B8227194F2DA600542747 /* Images.xcassets */; };
 		11C3C32D19D63B9700CE4E49 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A31885B8450061BB0A /* audio.vox */; };
 		11C3C32E19D63B9700CE4E49 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A41885B8450061BB0A /* speech.vox */; };
+		14004A3F1F0E7AFB0056C0AF /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 14004A3E1F0E7AFB0056C0AF /* ac2game.dat */; };
 		52B8A58F1D2777F300FA453F /* libsteam_api.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8A5801D2777F300FA453F /* libsteam_api.dylib */; };
 		52B8A5901D2777F300FA453F /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8A5811D2777F300FA453F /* AGSKit.framework */; };
 		52B8A5911D2777F300FA453F /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B8A5811D2777F300FA453F /* AGSKit.framework */; };
@@ -90,10 +90,10 @@
 		110F58A41885B8450061BB0A /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game_files/speech.vox; sourceTree = "<group>"; };
 		1171EACC19D8E5FD00C86442 /* Legacy_Steam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Legacy_Steam-Info.plist"; sourceTree = "<group>"; };
 		117B8227194F2DA600542747 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Legacy/Images.xcassets; sourceTree = "<group>"; };
-		119FFB6919D8713C00031D4B /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/steam/ac2game.dat; sourceTree = "<group>"; };
 		119FFB6B19D87B9C00031D4B /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/ac2game.dat; sourceTree = "<group>"; };
 		119FFB7119D8829E00031D4B /* steam_appid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = steam_appid.txt; path = game_files/steam/steam_appid.txt; sourceTree = "<group>"; };
 		11C3C47719D63B9700CE4E49 /* Blackwell-Legacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackwell-Legacy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14004A3E1F0E7AFB0056C0AF /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/steam/ac2game.dat; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Blackwell-Legacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackwell-Legacy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CA4F630368D1EE00C91783 /* Legacy_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Legacy_Prefix.pch; sourceTree = "<group>"; };
 		52B8A5801D2777F300FA453F /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = redistributable_bin/osx32/libsteam_api.dylib; sourceTree = steamworks_sdk; };
@@ -212,7 +212,7 @@
 				1171EACC19D8E5FD00C86442 /* Legacy_Steam-Info.plist */,
 				119FFB7119D8829E00031D4B /* steam_appid.txt */,
 				119FFB6B19D87B9C00031D4B /* ac2game.dat */,
-				119FFB6919D8713C00031D4B /* ac2game.dat */,
+				14004A3E1F0E7AFB0056C0AF /* ac2game.dat */,
 				117B8227194F2DA600542747 /* Images.xcassets */,
 				110F58A31885B8450061BB0A /* audio.vox */,
 				110F58A41885B8450061BB0A /* speech.vox */,
@@ -380,8 +380,8 @@
 				119FFB7219D8829E00031D4B /* steam_appid.txt in Resources */,
 				11C3C32C19D63B9700CE4E49 /* Images.xcassets in Resources */,
 				11C3C32D19D63B9700CE4E49 /* audio.vox in Resources */,
-				119FFB6A19D8713C00031D4B /* ac2game.dat in Resources */,
 				11C3C32E19D63B9700CE4E49 /* speech.vox in Resources */,
+				14004A3F1F0E7AFB0056C0AF /* ac2game.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
