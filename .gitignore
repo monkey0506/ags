@@ -104,3 +104,6 @@ xcuserdata/
 *.xcuserstate
 *.xccheckout
 *.xcscmblueprint
+Manual/ags-help.chm
+
+\.DS_Store
