@@ -25,4 +25,7 @@
    <FileRef
       location = "group:unbound/Unbound.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:/Users/janetgilbert/Documents/ags/OSX/xcode/unavowed/Unavowed.xcodeproj">
+   </FileRef>
 </Workspace>

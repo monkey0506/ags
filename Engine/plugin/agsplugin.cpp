@@ -984,7 +984,7 @@ Engine::GameInitError pl_register_plugins(const std::vector<Common::PluginInfo> 
           }
           else
           {
-              AGS::Common::Out::FPrint("Built in plugin %s found.", apl->filename);
+              AGS::Common::Debug::Printf("Built in plugin %s found.", apl->filename);
           }
             
         }
