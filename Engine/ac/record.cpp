@@ -551,7 +551,7 @@ int my_readkey() {
       if (scancode==KEY_LEFT) {
         gott = 8; //j backspace on mac
       }
-      if (scancode==KEY_RIGHT) {
+     /* if (scancode==KEY_RIGHT) {
         gott = 0; //j
       }
       if (scancode==KEY_UP) {
@@ -559,7 +559,7 @@ int my_readkey() {
       }
       if (scancode==KEY_DOWN) {
         gott = 0; //j
-      }
+      }*/
         
         
 #endif

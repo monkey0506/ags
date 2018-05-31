@@ -16,7 +16,6 @@
 		28FD15000DC6FC520079059D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGL.framework */; };
 		52264CBF1D16AB7A00A39A14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52264CBE1D16AB7A00A39A14 /* Cocoa.framework */; };
 		52264CC11D16AC5000A39A14 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 52264CC01D16AC5000A39A14 /* acsetup.cfg */; };
-		525611861D718C50001C9D62 /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52C5C0841D278649001E3B10 /* steam_appid.txt */; };
 		525611881D718C50001C9D62 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 52264CC01D16AC5000A39A14 /* acsetup.cfg */; };
 		5256118A1D718C50001C9D62 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 110F58A31885B8450061BB0A /* audio.vox */; };
 		5256118B1D718C50001C9D62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526F1A171D3B0AC300EF4E1F /* MainMenu.xib */; };
@@ -40,14 +39,12 @@
 		5256119F1D718C50001C9D62 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F49A49155131E500A07887 /* AudioToolbox.framework */; };
 		525611A01D718C50001C9D62 /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A7D3501D1E688100D88BEE /* AGSKit.framework */; };
 		525611A31D718C50001C9D62 /* libsteam_api.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52A7D3C91D1F9BFC00D88BEE /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		525611A41D718C50001C9D62 /* steam_appid.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52C5C0841D278649001E3B10 /* steam_appid.txt */; };
 		525611AC1D718C8F001C9D62 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 525611AA1D718C8F001C9D62 /* plugin_registration.cpp */; };
 		525611AE1D718DC1001C9D62 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 525611AD1D718DC1001C9D62 /* ac2game.dat */; };
 		526F1A181D3B0AC300EF4E1F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526F1A171D3B0AC300EF4E1F /* MainMenu.xib */; };
 		52A7D3511D1E688100D88BEE /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A7D3501D1E688100D88BEE /* AGSKit.framework */; };
 		52A7D3531D1E689C00D88BEE /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A7D3521D1E689C00D88BEE /* libz.1.dylib */; };
 		52A7D3551D1E68A800D88BEE /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A7D3541D1E68A800D88BEE /* libbz2.1.0.dylib */; };
-		52C5C0851D278649001E3B10 /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52C5C0841D278649001E3B10 /* steam_appid.txt */; };
 		52DA54301D194C4C0056FB17 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA542F1D194C4C0056FB17 /* CoreVideo.framework */; };
 		52DA54311D1963780056FB17 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB994B2C180ECBCB00835511 /* IOKit.framework */; };
 		52DA54321D1963F40056FB17 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB994B26180ECB9B00835511 /* AppKit.framework */; };
@@ -74,7 +71,6 @@
 			dstSubfolderSpec = 6;
 			files = (
 				525611A31D718C50001C9D62 /* libsteam_api.dylib in CopyFiles */,
-				525611A41D718C50001C9D62 /* steam_appid.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +128,6 @@
 		52C5BFA41D277937001E3B10 /* win32fillin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = win32fillin.hpp; path = ../OSX/xcode/agsteam/win32fillin.hpp; sourceTree = "<group>"; };
 		52C5BFE11D2784B6001E3B10 /* steam_plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = steam_plugin_registration.cpp; path = ../OSX/xcode/wadjetcommon/steam_plugin_registration.cpp; sourceTree = "<group>"; };
 		52C5BFE21D2784B6001E3B10 /* steam_plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = steam_plugin_registration.hpp; path = ../OSX/xcode/wadjetcommon/steam_plugin_registration.hpp; sourceTree = "<group>"; };
-		52C5C0841D278649001E3B10 /* steam_appid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = steam_appid.txt; path = game_files/steam/steam_appid.txt; sourceTree = "<group>"; };
 		52DA542F1D194C4C0056FB17 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		60F49A49155131E500A07887 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6171F0F2207E252E00FF7288 /* plugin_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin_engine.h; sourceTree = "<group>"; };
@@ -263,7 +258,6 @@
 			children = (
 				525611B01D718EAE001C9D62 /* Unavowed_Steam-Info.plist */,
 				525611AD1D718DC1001C9D62 /* ac2game.dat */,
-				52C5C0841D278649001E3B10 /* steam_appid.txt */,
 			);
 			name = Steam;
 			sourceTree = "<group>";
@@ -411,7 +405,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C5C0851D278649001E3B10 /* steam_appid.txt in Resources */,
 				110F58A71885B8450061BB0A /* ac2game.dat in Resources */,
 				146963C820A92468008AB1E1 /* Images.xcassets in Resources */,
 				52264CC11D16AC5000A39A14 /* acsetup.cfg in Resources */,
@@ -425,7 +418,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525611861D718C50001C9D62 /* steam_appid.txt in Resources */,
 				525611881D718C50001C9D62 /* acsetup.cfg in Resources */,
 				146963C920A92468008AB1E1 /* Images.xcassets in Resources */,
 				525611AE1D718DC1001C9D62 /* ac2game.dat in Resources */,
